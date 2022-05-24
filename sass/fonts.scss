@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'MADE Tommy Soft';
+    src: url('../fonts/MADETommySoft-Medium.eot');
+    src: url('../fonts/MADETommySoft-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MADETommySoft-Medium.woff2') format('woff2'),
+        url('../fonts/MADETommySoft-Medium.woff') format('woff'),
+        url('../fonts/MADETommySoft-Medium.svg#MADETommySoft-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family: 'MADE Tommy Soft';
+    src: url('../fonts/MADETommySoft.eot');
+    src: url('../fonts/MADETommySoft.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MADETommySoft.woff2') format('woff2'),
+        url('../fonts/MADETommySoft.woff') format('woff'),
+        url('../fonts/MADETommySoft.svg#MADETommySoft') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto Regular.eot');
+    src: url('../fonts/Roboto Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto Regular.woff2') format('woff2'),
+        url('../fonts/Roboto Regular.woff') format('woff'),
+        url('../fonts/Roboto Regular.svg#Roboto Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2044;
+}

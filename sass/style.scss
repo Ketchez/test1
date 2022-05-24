@@ -1,0 +1,64 @@
+body {
+    background: url('../img/bg.png');
+}
+
+@import "header";
+@import "objectpic";
+
+.content {
+    font-family: 'MADE Tommy Soft';
+    margin-left: 120px;
+    position: relative;
+    z-index: 3;
+
+    .content__text {
+        h1 {
+            font-size: 100px;
+            line-height: 100px;
+            font-weight: 500;
+            color: #295e17;
+        }
+
+        h2 {
+            margin-top: -10px;
+            font-size: 45.8px;
+            line-height: 0.6;
+            font-weight: 400;
+            color: #007b5e;
+        }
+
+        p {
+            font-family: 'Roboto';
+            font-size: 25px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: #007b5e;
+        }
+    }
+
+    .content__button {
+        padding-top: 30px;
+
+        a {
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            width: 314px;
+            height: 102px;
+            background-color: #295e17;
+            border-radius: 50px;
+            font-size: 25px;
+            line-height: 1.2;
+            font-weight: 400;
+            color: #ffffff;
+
+            &:hover {
+                background-color: #007b5e;
+            }
+
+            &:active {
+                opacity: 0.6;
+            }
+        }
+    }
+}

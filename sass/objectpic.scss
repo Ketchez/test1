@@ -1,0 +1,50 @@
+.left {
+    position: fixed;
+    width: 642px;
+    top: 65%;
+}
+
+.right {
+    position: fixed;
+    left: 466px;
+    top: 150px;
+    width: 1454px;
+}
+
+.oblaka {
+    img {
+        position: fixed;
+        width: 270px;
+        height: 45px;
+
+        &:nth-child(1) {
+            bottom: 785px;
+            left: 1170px;
+        }
+
+        &:nth-child(2) {
+            bottom: 665px;
+            left: 570px;
+        }
+
+        &:nth-child(3) {
+            bottom: 630px;
+            left: 1740px;
+        }
+
+        &:nth-child(4) {
+            bottom: 520px;
+            left: -140px;
+        }
+
+        &:nth-child(5) {
+            bottom: 400px;
+            left: 1200px;
+        }
+
+        &:nth-child(6) {
+            bottom: 300px;
+            left: 650px;
+        }
+    }
+}

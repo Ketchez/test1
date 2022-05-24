@@ -1,0 +1,88 @@
+.header {
+    position: relative;
+    z-index: 3;
+    margin: 55px 120px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'MADE Tommy Soft';
+
+    .header__logo {
+        img {
+            width: 379px/379px*50%;
+            height: 118px/118px*50%;
+        }
+    }
+
+    .header__section {
+        display: flex;
+        align-items: center;
+    }
+
+    .header__section:nth-child(3) {
+        display: block;
+    }
+
+    .header__section:nth-child(2) {
+        margin-left: -10%;
+    }
+
+    .header__item {
+        padding: 10px 10px;
+
+        .text {
+            padding-right: 50px;
+            text-decoration: none;
+            font-family: 'MADE Tommy Soft';
+            font-size: 25px;
+            line-height: 62px;
+            font-weight: 500;
+            color: #17856d;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &:active {
+                opacity: 0.6;
+            }
+        }
+    }
+
+    .header__link {
+        padding-top: 20px;
+
+        a {
+            text-decoration: none;
+            font-size: 24px;
+            line-height: 0.6;
+            font-weight: 400;
+            color: #007b5e;
+
+            &:hover {
+                text-decoration: underline;
+            }
+
+            &:active {
+                opacity: 0.6;
+            }
+        }
+    }
+
+    .header__soc {
+        padding-left: 35px;
+        padding-top: 10px;
+
+        a {
+            &:active {
+                opacity: 0.6;
+            }
+        }
+
+        img {
+            padding-top: 5px;
+            padding-left: 8px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}

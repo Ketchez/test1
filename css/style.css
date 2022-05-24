@@ -1,0 +1,173 @@
+body {
+  background: url("../img/bg.png");
+}
+
+.header {
+  position: relative;
+  z-index: 3;
+  margin: 55px 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "MADE Tommy Soft";
+}
+.header .header__logo img {
+  width: 50%;
+  height: 50%;
+}
+.header .header__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .header__section:nth-child(3) {
+  display: block;
+}
+.header .header__section:nth-child(2) {
+  margin-left: -10%;
+}
+.header .header__item {
+  padding: 10px 10px;
+}
+.header .header__item .text {
+  padding-right: 50px;
+  text-decoration: none;
+  font-family: "MADE Tommy Soft";
+  font-size: 25px;
+  line-height: 62px;
+  font-weight: 500;
+  color: #17856d;
+}
+.header .header__item .text:hover {
+  text-decoration: underline;
+}
+.header .header__item .text:active {
+  opacity: 0.6;
+}
+.header .header__link {
+  padding-top: 20px;
+}
+.header .header__link a {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 0.6;
+  font-weight: 400;
+  color: #007b5e;
+}
+.header .header__link a:hover {
+  text-decoration: underline;
+}
+.header .header__link a:active {
+  opacity: 0.6;
+}
+.header .header__soc {
+  padding-left: 35px;
+  padding-top: 10px;
+}
+.header .header__soc a:active {
+  opacity: 0.6;
+}
+.header .header__soc img {
+  padding-top: 5px;
+  padding-left: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+.left {
+  position: fixed;
+  width: 642px;
+  top: 65%;
+}
+
+.right {
+  position: fixed;
+  left: 466px;
+  top: 150px;
+  width: 1454px;
+}
+
+.oblaka img {
+  position: fixed;
+  width: 270px;
+  height: 45px;
+}
+.oblaka img:nth-child(1) {
+  bottom: 785px;
+  left: 1170px;
+}
+.oblaka img:nth-child(2) {
+  bottom: 665px;
+  left: 570px;
+}
+.oblaka img:nth-child(3) {
+  bottom: 630px;
+  left: 1740px;
+}
+.oblaka img:nth-child(4) {
+  bottom: 520px;
+  left: -140px;
+}
+.oblaka img:nth-child(5) {
+  bottom: 400px;
+  left: 1200px;
+}
+.oblaka img:nth-child(6) {
+  bottom: 300px;
+  left: 650px;
+}
+
+.content {
+  font-family: "MADE Tommy Soft";
+  margin-left: 120px;
+  position: relative;
+  z-index: 3;
+}
+.content .content__text h1 {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 500;
+  color: #295e17;
+}
+.content .content__text h2 {
+  margin-top: -10px;
+  font-size: 45.8px;
+  line-height: 0.6;
+  font-weight: 400;
+  color: #007b5e;
+}
+.content .content__text p {
+  font-family: "Roboto";
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #007b5e;
+}
+.content .content__button {
+  padding-top: 30px;
+}
+.content .content__button a {
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 314px;
+  height: 102px;
+  background-color: #295e17;
+  border-radius: 50px;
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ffffff;
+}
+.content .content__button a:hover {
+  background-color: #007b5e;
+}
+.content .content__button a:active {
+  opacity: 0.6;
+}
